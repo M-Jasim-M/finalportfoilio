@@ -1,0 +1,379 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@800&family=Inter:wght@300;400;500;600;700;800;900&family=Playfair&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Rubik:ital,wght@1,300&display=swap');
+
+
+
+
+:root{
+    
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+.main{
+    padding-top: 30px;
+    
+}
+.nmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    padding: 0px 100px !important ;
+
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    color: #277CE5;
+    font-family: Inter;
+
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+
+}
+.links li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.links  button{
+    border: none;
+color:#FFF ;
+    width: 120px;
+    height: 35px;
+    font-family: Inter;
+    border-radius: 7px;
+    background-color: #277CE5;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+.tooglebut{
+    display: none;
+
+}
+
+
+.section1{
+    padding: 40px 140px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.oneleft{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+    
+
+}
+.oneleft div:nth-of-type(1){
+    color:#277CE5;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.oneleft div:nth-of-type(2){
+    
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0,0,0,0,72);
+
+}
+.oneleft div:nth-of-type(3){
+    
+    font-size: 23px;
+    font-weight: 600;
+    color: #277CE5;
+    font-family: inter;
+
+}
+.oneleft div:nth-of-type(4){
+    
+    font-size: 14px;
+    font-weight: 500;
+    color: #858E92;
+    font-family:Inter;
+
+}
+.oneleft div:nth-of-type(5) button:nth-child(1){
+    
+    border-radius: 5.897px;
+    background: #277CE5;
+    box-shadow: 0px -3px 7px 0px rgba(0, 0, 0, 0.20) inset, 3px 4px 7px 0px rgba(0, 0, 0, 0.20) inset;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    width: 110px;
+    height: 40px;
+    border:none;
+
+}
+
+
+
+.oneleft div:nth-of-type(5) button:nth-child(2){
+    
+    border-radius: 5.897px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    width: 110px;
+    height: 40px;
+    border:none;
+    border: 1px solid #277CE5;
+    background: #FFF;
+
+}
+
+.oneleft div:nth-of-type(5){
+    
+    display: flex;
+    gap:20px;
+}
+
+
+
+
+.oneright{
+    flex:1;
+
+
+}
+.oneright img{
+    
+    width: 90%;
+height: 400px;
+}
+.section2{
+    
+    height: 200px;
+    padding: 40px 100px 0px !important;
+    display: flex;
+    gap:50px;
+}
+.twofirst{
+    border-radius: 9px;
+    background: rgba(155,194,243,0.23);
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    flex-direction: column;
+    position: relative;
+    justify-content:center;
+}
+.twofirst div:nth-child(1){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #277CE5;
+    position: absolute;
+    top:-20px;
+}
+.twofirst div:nth-child(2){
+   font-size:16px;
+   font-weight: 600;
+}
+
+.twofirst div:nth-child(3){
+    font-size:16px;
+   font-weight: 600;
+    
+}
+
+/* this is the css for the third section in the website */
+
+.section3{
+margin-top: 50px;
+width: 100%;
+height: 70vh;
+border-radius: 23px;
+background: #E8F1FC;
+position: relative;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+padding: 10px 120px;
+}
+
+.logo1{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.logo2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.containall{
+display: flex;
+width: 100%;
+}
+.threeleft{
+flex: 1;
+}
+.threeleft img{
+width: 75%;
+height: 65vh;
+}
+
+.threeright{
+flex: 1;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.threeright div:nth-child(1){
+font-size: 30px;
+font-weight: 600;
+
+}
+.threeright div:nth-child(2){
+font-size: 20px;
+font-weight: 500;
+}
+.threeright div:nth-child(3){
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.section4{
+/* background-color: red; */
+margin-top: 60px;
+padding: 10px 120px; 
+}
+.service{
+display: flex;
+justify-content: center;
+align-items: center;
+color: #277CE5;
+font-family: Inter;
+font-size: 18px;
+}
+.service2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.cardcontainer{
+width: 100%;
+/* background-color: green; */
+height: 45vh;
+margin-top: 70px;
+display: flex;
+gap: 10px;
+}
+.cardone{
+    width: 340px;
+    height: 43vh;
+    border-radius: 16.609px;
+background: rgba(155, 194, 243, 0.23);
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.cardone div:nth-child(1){
+position: absolute;
+top: -40px;
+left: 40%;
+background-color: #277CE5;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cardone div:nth-child(1) img{
+    width: 50px;
+    height: 50px;
+}
+
+.cardone div:nth-child(2){
+font-size: 30px;
+font-weight: 700;
+}
+.cardone div:nth-child(3){
+    color: #5F5F5F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+@media(max-width:768px){
+
+    .nmain{
+        padding: 0px 10px !important;
+
+    }
+    .tooglebut{
+        display: block;
+        z-index:4;
+    }
+    .links{
+        width:25%;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right:-30%;
+        flex-direction: column;
+        background-color: red;
+        justify-content: flex-start;
+        padding-top: 50px!important;
+        transition: 1s;
+    }
+
+    .links2{
+        width:25%;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right:0px;
+        flex-direction: column;
+        background-color: red;
+        justify-content: flex-start;
+        padding-top: 50px!important;
+        transition: 1s;
+
+    }
+}
